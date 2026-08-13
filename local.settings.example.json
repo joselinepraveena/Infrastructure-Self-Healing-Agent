@@ -1,0 +1,16 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "STATE_STORAGE_ACCOUNT_URL": "https://replace-me.table.core.windows.net",
+    "DRY_RUN": "true",
+    "ALLOWED_ENVIRONMENTS": "dev,test,staging",
+    "ALLOWED_SEVERITIES": "Sev0,Sev1,Sev2,Sev3",
+    "COOLDOWN_MINUTES": "30",
+    "MAX_ATTEMPTS": "1",
+    "STABILIZATION_SECONDS": "30",
+    "VALIDATION_ATTEMPTS": "3",
+    "VALIDATION_TIMEOUT_SECONDS": "10"
+  }
+}
